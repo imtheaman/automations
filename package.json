@@ -1,0 +1,17 @@
+{
+  "name": "github-automatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "puppeteer-core": "^13.6.0",
+    "ts-node": "^10.7.0"
+  }
+}
