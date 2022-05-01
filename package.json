@@ -1,17 +1,17 @@
 {
-  "name": "github-automatic",
+  "name": "automations",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts"
+   "linkedin": "cd linkedin && ts-node index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aman Kumar",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "puppeteer-core": "^13.6.0",
+    "puppeteer": "^13.7.0",
     "ts-node": "^10.7.0"
   }
 }

@@ -6,4 +6,5 @@ const calculate = (initial: number, rate: number, days: number) => {
   }
 };
 
-calculate(130, 5, 360)
+calculate(140, 5, 180)
+// console.log(912434* 78);
