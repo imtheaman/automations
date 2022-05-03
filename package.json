@@ -4,14 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "linkedin": "cd linkedin && ts-node index.ts"
+    "linkedin:endorse_all": "cd linkedin && ts-node index.ts",
+    "linkedin:endorse_one": "cd linkedin && ts-node endorse-single-user.ts",
+    "github:follow": "cd github && ts-node follow.ts",
+    "compound": "cd extras && ts-node compound-calculator.ts"
   },
   "keywords": [],
   "author": "Aman Kumar",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "puppeteer": "^13.7.0",
+    "inquirer": "^8.2.4",
+    "puppeteer": "^13.7.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
     "ts-node": "^10.7.0"
   }
 }
